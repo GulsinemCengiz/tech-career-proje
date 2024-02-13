@@ -109,8 +109,9 @@ as begin
 insert into Adres (AdresId,Adres,Telefon)
 values (@AdresId,@Adres,@Telefon)
 end
+--deneme aşaması
 
-exec AddAdres '16','Bahçalievler mah. 1849.Sok.','05067896576'
+exec AddAdres '17','Bahçalievler caddesi 1848.Sok.','05067896586'
 
 --View oluşturma
 create view AlinankitaplarInfoView
